@@ -27,7 +27,7 @@ func main() {
 	used := 0
 	for used < bufLen && len(txt) <= bufLen-used {
 		copy(buf[used:], txt)
-		used += len([]byte(txt))
+		used += len(txt)
 	}
 
 	// The infinite processing loop that will endlessly print the text to StdOut

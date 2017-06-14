@@ -7,6 +7,6 @@ is extremely fast.
 This is a implementation of the `yes` tool in Go. It's extremely fast and maybe even a bit faster than GNU yes.
 
 ## Install
-    go get github.com/sthagedorn/yesgo
+    $ go get github.com/sthagedorn/yesgo
     $ yesgo | pv > /dev/null
     ... [5,66GiB/s] ...

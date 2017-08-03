@@ -30,6 +30,8 @@ func main() {
 		used += len(txt)
 	}
 
+	buf = buf[:used]
+
 	// The infinite processing loop that will endlessly print the text to StdOut
 	for {
 		os.Stdout.Write(buf)
